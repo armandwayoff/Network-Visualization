@@ -16,3 +16,11 @@ class Vertex:
 ```python
 vertex = (x, y)
 ```
+
+## Edges
+
+Add an edge between ```vertices[i] and vertices[j]```
+
+```python
+plt.plot([vertices[i].x, vertices[j].x], [vertices[i].y, vertices[j].y], 'b')  # the 'b' parameter displays a blue edge
+```
